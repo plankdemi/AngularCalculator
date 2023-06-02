@@ -1,0 +1,45 @@
+<p class="text-slate-100 bg-slate-600 p-4 w-full text-center h-16">{{number}}</p>
+<ul class="text-slate-100 flex justify-center mt-10">
+    
+    <ul class="inline-block w-20">
+        <li><button class="bg-slate-600 p-4 w-full">%</button></li>
+        <li><button (click)="divByOne()" class="bg-slate-600 p-4 w-full"><sup>1</sup>/<sub>x</sub></button></li>
+        <li><button (click)="addSeven()"class="bg-slate-600 p-4 w-full">7</button></li>
+        <li><button (click)="addFour()" class="bg-slate-600 p-4 w-full">4</button></li>
+        <li><button (click)="addOne()" class="bg-slate-600 p-4 w-full">1</button></li>
+        <li><button (click)="invert()" class="bg-slate-600 p-4 w-full"><sup>+</sup>/<sub>-</sub></button></li>
+    
+    </ul>
+    <ul class="inline-block w-20">
+
+        <li><button (click)="clear()" class="bg-slate-600 p-4 w-full">CE</button></li>
+        <li><button (click)="powerOfTwo()" class="bg-slate-600 p-4 w-full">X<sup>2</sup></button></li>
+        <li><button (click)="addOEight()"  class="bg-slate-600 p-4 w-full">8</button></li>
+        <li><button (click)="addFive()" class="bg-slate-600 p-4 w-full">5</button></li>
+        <li><button (click)="addTwo()" class="bg-slate-600 p-4 w-full">2</button></li>
+        <li><button (click)="addZero()" class="bg-slate-600 p-4 w-full">0</button></li>
+    
+    </ul>
+    <ul class="inline-block w-20">
+
+        <li><button (click)="clear()" class="bg-slate-600 p-4 w-full">C</button></li>
+        <li><button (click)="sqrt()" class="bg-slate-600 p-4 w-full">&#8730;x</button></li>
+        <li><button (click)="addNine()" class="bg-slate-600 p-4 w-full">9</button></li>
+        <li><button (click)="addSix()" class="bg-slate-600 p-4 w-full">6</button></li>
+        <li><button (click)="addThree()" class="bg-slate-600 p-4 w-full">3</button></li>
+        <li><button (click)="addDot()" class="bg-slate-600 p-4 w-full">.</button></li>
+        
+
+    </ul>
+
+    <ul class="inline-block w-20"> 
+        <li><button (click)="deleteLast()" class="bg-slate-600 p-4 w-full">&#8678;</button></li>
+        <li><button (click)="divide()" class="bg-slate-600 p-4 w-full">/</button></li>
+        <li><button (click)="multiply()" class="bg-slate-600 p-4 w-full">X</button></li>
+        <li><button (click)="substract()" class="bg-slate-600 p-4 w-full">-</button></li>
+        <li><button (click)="add()" class="bg-slate-600 p-4 w-full">+</button></li>
+        <li><button (click)="calculate()" class="bg-slate-600 p-4 w-full">=</button></li>
+      
+    </ul>
+
+</ul>
